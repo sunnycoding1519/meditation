@@ -38,7 +38,7 @@ function Page() {
         </p>
 
         <div className="batch">
-         🌙 रात 8–9 बजे (Live Online Classes)
+         🌙 रात 8–10 बजे (Live Online Classes)
         </div>
       </section>
        {/* VIDEO SECTION */}
@@ -182,7 +182,7 @@ function Page() {
 
       {/* FLOAT BUTTON */}
       <button className="join-btn" onClick={joinNow}>
-        अभी Join करें ₹999
+        अभी Join करें 
       </button>
 
     </div>
