@@ -236,3 +236,36 @@ button:hover{
     font-size:14px;
   }
 }
+/* ===== VIDEO PERFECT RATIO FIX ===== */
+
+.video-section{
+  width:100%;
+  padding:60px 20px;
+  display:flex;
+  justify-content:center;
+}
+
+/* vertical reel container */
+.video-wrapper{
+  width:90%;
+  max-width:360px;        /* mobile width feel */
+  aspect-ratio:9 / 16;    /* ⭐ main fix */
+  margin:auto;
+  border-radius:20px;
+  overflow:hidden;
+  background:#000;
+  box-shadow:0 15px 40px rgba(0,0,0,0.6);
+}
+
+/* video fit */
+.video-wrapper video{
+  width:100%;
+  height:100%;
+  object-fit:contain;   /* ⭐ IMPORTANT */
+  display:block;
+}
+@media(min-width:768px){
+  .video-wrapper{
+    max-width:420px;
+  }
+}
