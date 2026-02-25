@@ -38,7 +38,7 @@ function Page() {
         </p>
 
         <div className="batch">
-          🌅 सुबह 7–8 बजे | 🌙 रात 8–9 बजे (Live Online Classes)
+         🌙 रात 8–9 बजे (Live Online Classes)
         </div>
       </section>
 
