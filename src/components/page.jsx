@@ -41,6 +41,26 @@ function Page() {
          🌙 रात 8–9 बजे (Live Online Classes)
         </div>
       </section>
+       {/* VIDEO SECTION */}
+<section className="section video-section">
+
+  <div className="video-wrapper">
+    <video
+      controls
+      autoPlay
+      muted
+      loop
+      playsInline
+    >
+      <source
+        src="https://res.cloudinary.com/dvnvbvxh9/video/upload/v1772006197/Meditation_2_fh6ml0.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</section>
 
       {/* ABOUT */}
       <section className="section">
