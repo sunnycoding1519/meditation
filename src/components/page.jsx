@@ -21,7 +21,7 @@ function Page() {
 };
 
   const joinNow = () => {
-    window.open("https://chat.whatsapp.com/YOURGROUPLINK");
+    window.open("https://chat.whatsapp.com/DnFVJO04C5q0AlrsHturha?mode=gi_t");
   };
 
   return (
@@ -32,8 +32,8 @@ function Page() {
         <h1>अपना सही Meditation Type खोजें</h1>
 
         <p>
-          हर व्यक्ति के लिए meditation अलग होता है। इस 5 दिन के
-          प्रोग्राम में आप जानेंगे कि आपके दिमाग और learning style
+          हर व्यक्ति के लिए meditation अलग होता है। इस प्रोग्राम 
+          में आप जानेंगे कि आपके दिमाग और learning style
           के अनुसार कौन-सा meditation आपके लिए सबसे सही है।
         </p>
 
@@ -164,6 +164,29 @@ function Page() {
       </div>
 
     </div>
+
+   <div className="card">
+  <div className="card-img">Neurological Image</div>
+  <div className="card-body">
+    <h3>Meditation on Neurological Levels</h3>
+    <p>
+      दिमाग के neurological patterns को balance करने वाली meditation
+      जिससे stress response कम होता है और brain clarity बढ़ती है।
+    </p>
+  </div>
+</div>
+
+<div className="card">
+  <div className="card-img">Learning Style Image</div>
+  <div className="card-body">
+    <h3>Meditation Aligning With Learning Style</h3>
+    <p>
+      आपकी learning style (visual, auditory, kinesthetic) के अनुसार
+      customized meditation जिससे practice जल्दी effective होती है।
+    </p>
+  </div>
+</div>
+
 
   </div>
 </section>
