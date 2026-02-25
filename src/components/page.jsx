@@ -163,9 +163,7 @@ function Page() {
         </div>
       </div>
 
-    </div>
-
-   <div className="card">
+       <div className="card">
   <div className="card-img">Neurological Image</div>
   <div className="card-body">
     <h3>Meditation on Neurological Levels</h3>
@@ -187,8 +185,9 @@ function Page() {
   </div>
 </div>
 
+    </div>
 
-  </div>
+   </div>
 </section>
 
       {/* FORM */}
