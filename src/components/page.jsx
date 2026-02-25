@@ -38,7 +38,7 @@ function Page() {
         </p>
 
         <div className="batch">
-         🌙 ररात 8 बजे से 10 बजे तक (Live Webinar On Zoom)
+         🌙 रात 8 बजे से 10 बजे तक (Live Webinar On Zoom)
         </div>
       </section>
        {/* VIDEO SECTION */}
